@@ -1,0 +1,42 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #212121;
+}
+
+.navigation-list-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  font-family: Roboto;
+  color: #27c427;
+}
+.navigation-list-link:hover,
+.navigation-list-link:focus {
+  color: #2196f3;
+}
+.tel-link {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+.tel-link:hover,
+.tel-link:focus {
+  color: #2196f3;
+}
+.modal-btn {
+  font-weight: bold;
+  font-size: 16;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.modal-btn:hover,
+.modal-btn:focus {
+  color: #ffffff;
+  background-color: #2196f3;
+}
