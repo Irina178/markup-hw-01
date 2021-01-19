@@ -10,6 +10,10 @@ body {
   font-family: var(--text-font);
   color: #212121;
 }
+.link {
+  text-decoration: none;
+  color: inherit;
+}
 
 .about-title {
   font-style: normal;
@@ -84,14 +88,6 @@ body {
   color: #757575;
 }
 
-.about-list-item {
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: #757575;
-}
-
 .title-hero {
   font-style: normal;
   font-weight: bold;
@@ -129,9 +125,17 @@ body {
   line-height: 31px;
   letter-spacing: 0.03em;
 }
-  .navigation-logo-color{
-color: #212121;;
-  }
+.navigation-logo-color {
+  color: #212121;
+}
+
+.imel {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: #2196f3;
 }
 .comand-light {
   font-family: Roboto;
@@ -139,6 +143,47 @@ color: #212121;;
   font-weight: normal;
   font-size: 16px;
   line-height: 19px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+/* portfolio */
+/* .about {
+}
+.about-box {
+}
+.about-box-list {
+}
+.about-box-list-item {
+} */
+.box-modal-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+/* .border {
+}
+.border-box {
+}
+.border-social-links {
+}
+.border-links-item {
+} */
+.border-title-hero {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+.border-light {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
   letter-spacing: 0.03em;
   color: #757575;
 }
