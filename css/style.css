@@ -1,3 +1,9 @@
+:root {
+  --title-font : "Raleway" , без засечек;
+  --text-font : "Roboto" , без засечек;
+  --accent-color : #2196f3;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   color: #212121;
@@ -8,15 +14,15 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  font-family: Roboto;
+  font-family: var(--title-font); ;
   color: #27c427;
 }
 .navigation-list-link:hover,
 .navigation-list-link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .tel-link {
-  font-family: Roboto;
+  font-family: var(--text-font);;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -25,7 +31,7 @@ body {
 }
 .tel-link:hover,
 .tel-link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .modal-btn {
   font-weight: bold;
@@ -39,4 +45,88 @@ body {
 .modal-btn:focus {
   color: #ffffff;
   background-color: #2196f3;
+  var(--text-font);
 }
+
+.subtitle-light-theme
+{
+font-weight: normal;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: #757575;
+} 
+
+.title {
+font-family: var(--text-font);
+font-weight: bold;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #212121;
+}
+
+.about-list-item{
+font-family: var(--text-font);
+font-weight: normal;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: #757575;
+}
+
+.about-list-item{
+font-family: var(--text-font);
+font-weight: normal;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: #757575;
+}
+
+
+
+.title-hero{
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+.comand-title-hero {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.logo {
+font-family: Raleway;
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+color: #2196F3;
+}
+.logo-color{
+color: #FFFFFF;
+font-family: Raleway;
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 31px;
+letter-spacing: 0.03em;
+color: #2196F3;
+}
+
+ 
+
