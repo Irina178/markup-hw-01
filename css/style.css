@@ -128,7 +128,10 @@ body {
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
-  color: #2196f3;
+}
+  .navigation-logo-color{
+color: #212121;;
+  }
 }
 .comand-light {
   font-family: Roboto;
