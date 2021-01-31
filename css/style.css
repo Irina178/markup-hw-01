@@ -10,9 +10,44 @@ body {
   font-family: var(--text-font);
   color: #212121;
 }
+/*сброс  */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul,
+ol {
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  display: block;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+.address {
+  font-style: normal;
+}
 .link {
   text-decoration: none;
   color: inherit;
+}
+ul {
+  list-style: none;
 }
 
 .about-title {
@@ -25,8 +60,7 @@ body {
   text-transform: uppercase;
   color: #ffffff;
 }
-
-.navigation-list-link {
+.navigation-list-link .navigation-list-link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -186,4 +220,10 @@ body {
   line-height: 30px;
   letter-spacing: 0.03em;
   color: #757575;
+}
+
+.container {
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
 }
