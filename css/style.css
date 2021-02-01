@@ -126,7 +126,7 @@ ul {
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1,16;
   text-align: center;
   letter-spacing: 0.03em;
 
@@ -136,7 +136,7 @@ ul {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1,18;
   letter-spacing: 0.03em;
   color: #212121;
 }
@@ -156,7 +156,7 @@ ul {
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1,19;
   letter-spacing: 0.03em;
 }
 .navigation-logo-color {
@@ -166,7 +166,7 @@ ul {
 .imel {
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1,14;
   letter-spacing: 0.02em;
 
   color: #2196f3;
@@ -176,7 +176,7 @@ ul {
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1,18;
   letter-spacing: 0.03em;
   color: #757575;
 }
@@ -193,7 +193,7 @@ ul {
 .box-modal-btn {
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1,62;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
@@ -217,7 +217,7 @@ ul {
 .border-light {
   font-weight: normal;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 2;
   letter-spacing: 0.03em;
   color: #757575;
 }
@@ -226,4 +226,14 @@ ul {
   width: 1200px;
   padding: 0 15px;
   margin: 0 auto;
+}
+.adress{
+position: absolute;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: #0c0c0c;
 }
