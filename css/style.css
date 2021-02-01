@@ -160,7 +160,13 @@ ul {
   letter-spacing: 0.03em;
 }
 .navigation-logo-color {
-  color: #212121;
+color: #212121;
+font-family: Raleway;
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 1,19;
+letter-spacing: 0.03em;
 }
 
 .imel {
@@ -227,7 +233,7 @@ ul {
   padding: 0 15px;
   margin: 0 auto;
 }
-.adress{
+.address{
 position: absolute;
 font-family: Roboto;
 font-style: normal;
